@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Read 3 integers from stdin
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+        
+        scanner.close();
+        
+        // Print each integer on a new line
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+    }
+}
